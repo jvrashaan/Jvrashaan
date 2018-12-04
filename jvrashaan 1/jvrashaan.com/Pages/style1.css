@@ -1,0 +1,140 @@
+/*navigation*/
+.navigation{
+    text-align: center;
+    width: 100%;
+}
+
+#nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid grey;
+  background-color: #bebfbd;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#nave {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+#nave a{
+  color: #FFF;
+  display: block;
+  padding: 14px 16px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  margin-right: 0px;
+  margin-left: 0px;
+  text-shadow: 2px 2px 3px black, -2px -2px 5px black;
+}
+
+#nave a:hover{
+  background-color: #a4f442;
+}
+
+body {
+  background-color: #FFF;
+}
+
+#header-content {
+  color: #fff;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  text-shadow: 2px 2px 3px black, -2px -2px 5px black;
+  border-radius: 50%;
+  font-size: 30px;
+  position: relative;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+/*header background image*/
+.header {
+  background-image: url(https://commuteseattle.com/wp-content/uploads/2017/02/downtown-view-1500x730.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+  text-align: center;
+}
+
+#myphoto{
+  display: block;
+  margin: auto;
+}
+
+/*about*/
+.about{
+  background-color: white;
+  color: black;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+h3{
+  text-shadow: 2px 2px 3px black, -2px -2px 5px black;
+  color: white;
+  font-size: 40px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+h4{
+  text-shadow: 2px 2px 3px black, -2px -2px 5px black;
+  color: white;
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+/*Table section*/
+.background{
+  background-image: url(http://i1243.photobucket.com/albums/gg544/jvrashaan/27392545-seattle-wallpapers_zpswmzi49oh.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#bu{
+  display: block;
+  margin: auto;
+  width: 13%;
+  padding-bottom: 50px;
+}
+
+.table{
+  margin-bottom: 100px;
+}
+
+.table tr{
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  border-radius: 5px;
+}
+
+th {
+  background-color: #bebfbd;
+  border: 2px groove grey;
+  border-radius: 40px;
+  text-shadow: 2px 2px 3px black, -2px -2px 5px black;
+}
+
+td{
+  background-color: #a4f442;
+  border: 2px groove grey;
+  border-radius: 40px;
+}

@@ -1,0 +1,67 @@
+#header-text{
+  text-align: center;
+  position: relative;
+  margin-top: 10%;
+  color: #fff;
+  font-size: 50px;
+  font-family: 'Raleway', sans-serif;
+  width: 800px;
+  margin-left: 22.5%;
+}
+
+/*navigation*/
+.navigation{
+    text-align: center;
+    width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid grey;
+  background-color: #bebfbd;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li a{
+  color: #FFF;
+  display: block;
+  padding: 14px 16px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  margin-right: 0px;
+  margin-left: 0px;
+  text-shadow: 2px 2px 3px black, -2px -2px 5px black;
+}
+
+li a:hover{
+  background-color: #a4f442;
+}
+
+body {
+  background-color: #FFF;
+  background-image: url(http://blog.alphasignage.com.br/wp-content/uploads/2016/03/natureza_1280x720.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.active{
+  background-color: #f2770c;
+}
+
+h1, h2 {
+  text-shadow: 2px 2px 3px black, -2px -2px 5px black;
+  border-radius: 50%;
+}
